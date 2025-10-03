@@ -24,7 +24,8 @@ comments: false
 } */
 
 {% if site.index.banner.background-image %}
-.home .banner {
+.home .banner,
+.home .site-header {
     background-image: url("{{ site.index.banner.background-image }}");
     background-repeat: {{ site.index.banner.background-repeat | default: 'no-repeat' }};
     background-size: {{ site.index.banner.background-size | default: 'cover' }};
@@ -218,5 +219,6 @@ comments: false
     <!-- /pagination -->
 </section>
 <!-- /section.content -->
+
 
 

@@ -74,28 +74,28 @@ navs:
     href: /categories/
     label: Categories
 
-  -
-    href: /archives/
-    label: Archives
-    mobile-hidden: true
+  # -
+  #   href: /archives/
+  #   label: Archives
+  #   mobile-hidden: true
 
-  -
-    href: /open-source/
-    label: Open-source
-    mobile-hidden: true
+  # -
+  #   href: /open-source/
+  #   label: Open-source
+  #   mobile-hidden: true
 
-  -
-    href: /fragments/
-    label: Fragments
+  # -
+  #   href: /fragments/
+  #   label: Fragments
 
-  -
-    href: /wiki/
-    label: Wiki
+  # -
+  #   href: /wiki/
+  #   label: Wiki
 
-  -
-    href: /links/
-    label: Links
-    mobile-hidden: true
+  # -
+  #   href: /links/
+  #   label: Links
+  #   mobile-hidden: true
 
   -
     href: /about/

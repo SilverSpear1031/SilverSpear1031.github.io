@@ -186,7 +186,6 @@ giscus:
     repo-id: R_kgDOP7rONg
     category: Announcements
     category-id: DIC_kwDOP7rONs4CwNWc
-    data-lang: en
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 

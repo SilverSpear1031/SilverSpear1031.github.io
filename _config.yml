@@ -2,18 +2,16 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
-date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
-timezone: Asia/Shanghai
+url: https://silverspear1031.github.io/
+date_format: "%m/%d/%Y"
+title: SilverSpear1031
+subtitle: "Blog"
+description: "SilverSpear1031"
+keywords: SilverSpear1031,Peng Rui
+timezone: America/New_York
 encoding: "utf-8"
-# 页面左下角显示的年份
-since: 2015
-# 源码仓库，请替换成自己的
-repository: mzlogin/mzlogin.github.io
+since: 2025
+repository: SilverSpear1031/SilverSpear1031.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -39,7 +37,7 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: true
+        enabled: false
         image_alt: 闷骚的程序员
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
@@ -57,12 +55,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: SilverSpear1031
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: SilverSpear1031
+location: Atlanta, United States
+email: peng.rui.1031@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -70,38 +68,38 @@ email: chumpma@gmail.com
 navs:
   -
     href: /
-    label: 首页
+    label: Homepage
 
   -
     href: /categories/
-    label: 分类
+    label: Categories
 
   -
     href: /archives/
-    label: 归档
+    label: Archives
     mobile-hidden: true
 
   -
     href: /open-source/
-    label: 开源
+    label: Open-source
     mobile-hidden: true
 
   -
     href: /fragments/
-    label: 片段
+    label: Fragments
 
   -
     href: /wiki/
-    label: 维基
+    label: Wiki
 
   -
     href: /links/
-    label: 链接
+    label: Links
     mobile-hidden: true
 
   -
     href: /about/
-    label: 关于
+    label: About
 
 # ---------------- #
 #       RSS        #
@@ -168,26 +166,26 @@ gitment:
     owner: mzlogin
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 
+        client_secret: 
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    owner: 
+    repo: 
+    clientID: 
+    clientSecret: 
 # utterances 配置参考：https://utteranc.es/
 utterances:
-    repo: mzlogin/blog-comments
+    repo: 
 # beaudar 配置参考：https://beaudar.lipk.org/
 beaudar:
-    repo: mzlogin/blog-comments
+    repo: 
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: mzlogin/blog-comments
-    repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
+    repo: SilverSpear1031/SilverSpear1031.github.io
+    repo-id: R_kgDOP7rONg
     category: Announcements
-    category-id: DIC_kwDOBY0E7c4CRtg9
+    category-id: DIC_kwDOP7rONs4CwNWc
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
